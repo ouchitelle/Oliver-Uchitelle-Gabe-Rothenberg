@@ -44,61 +44,66 @@ $calorieIntake = array("Xunhealthy", "unhealthy", "avg", "healthy", "Xhealthy"
         ?>
     </section>
     <section>
-        <h2>Eating Habbits Form</h2>
-        <figure>
-            <img class="images" alt="Smoothie" src="../lab4/images/form.jpg">
-            <figcaption><cite><a href="https://www.dailymail.co.uk/health/article-2248451/The-healthy-smoothies-sugar-calories-Coke.html">DailyMail</a></cite></figcaption>
-        </figure>
+        <h2>NBA Form</h2>
     <form method="POST" action="#">
         <fieldset class="txtEmail">
             <input type="text" name="email" placeholder="ex. address@gmail.com">
         </fieldset>
-        <fieldset class="chxCheckBoxes">
-        <legend>What food groups would you say you eat regularly?</legend>    
-        <p>
-            <input type="checkbox" id="Fruits" name="Fruits" value="1">
-            <label for="Fruits">Fruits</label>
-        </p>
-        <p>
-            <input type="checkbox" id="Vegetables" name="Vegetables" value="1">
-            <label for="Vegetables">Vegetables</label>
-        </p>
-        <p>
-            <input type="checkbox" id="Grains" name="Grains" value="1">
-            <label for="Grains">Grains</label>
-        </p>
+        <fieldset class="txtName">
+            <input type="text" name="name" placeholder="ex. John Doe">
+        </fieldset>
+        <fieldset class="txtTeam">
+            <input type="text" name="team" placeholder="ex. New York Knicks">
         </fieldset>
         <fieldset class="radRadio">
-            <legend>How many meals do you eat a day on average?</legend>
-            <p>
-                <input type="radio" id="1" name="Meals" value="1">
-                <label for="1">1</label>
-            </p>
-            <p>
-                <input type="radio" id="2" name="Meals" value="2">
-                <label for="2">2</label>
-            </p>
-            <p>
-                <input type="radio" id="3" name="Meals" value="3">
-                <label for="3">3</label>
-            </p>
-            <p>
-                <input type="radio" id="4" name="Meals" value="4">
-                <label for="4">4</label>
-            </p>
-            <p>
-                <input type="radio" id="5" name="Meals" value="5">
-                <label for="5">5</label>
-            </p>
+        <legend>Pick the player you think deserves MVP</legend>    
+        <p>
+            <input type="radio" id="1" name="MVP" value="1">
+            <label for="Fruits">Nikola Jokic</label>
+        </p>
+        <p>
+            <input type="radio" id="1" name="MVP" value="2">
+            <label for="Vegetables">Luka Doncic</label>
+        </p>
+        <p>
+            <input type="radio" id="1" name="MVP" value="3">
+            <label for="Grains">Shai Gilgeous-Alexander</label>
+        </p>
+        <p>
+            <input type="radio" id="1" name="MVP" value="4">
+            <label for="Grains">Jalen Brunson</label>
+        </p>
+        <p>
+            <input type="radio" id="1" name="MVP" value="5">
+            <label for="Grains">Giannis Antetokounmpo</label>
+        </p>
         </fieldset>
+        
         <fieldset class="lstListBox">
-            <legend>Select what you believe your over health is</legend>
+            <legend>Select the team you think will make it out of the East</legend>
             <select name="healthscores" size="4" multiple>
-                <option value="Xunhealthy"> Extremely Unhealthy</option>
-                <option value="unhealthy">Unhealthy</option>
-                <option value="avg">Average</option>
-                <option value="healthy">Healthy</option>
-                <option value="Xhealthy">Extremely Healthy</option>
+                <option value="Celtics">Boston Celtics</option>
+                <option value="Heat">Miami Heat</option>
+                <option value="Cavs">Cleveland Cavaliers</option>
+                <option value="Magic">Orlando Magic</option>
+                <option value="Bucks">Milwaukee Bucks</option>
+                <option value="Pacers">Indiana Pacers</option>
+                <option value="Knicks">New York Knicks</option>
+                <option value="76ers">Philadelphia 76ers</option>
+            </select>
+        </fieldset>
+
+        <fieldset class="lstListBox">
+            <legend>Select the team you think will make it out of the West</legend>
+            <select name="healthscores" size="4" multiple>
+                <option value="Thunder">Oklahoma City Thunder</option>
+                <option value="Pelicans">New Orleans Pelicans</option>
+                <option value="Clippers">Los Angeles Clippers</option>
+                <option value="Mavericks">Dallas Mavericks</option>
+                <option value="Timberwolves">Minnesota Timberwolves</option>
+                <option value="Suns">Phoenix Suns</option>
+                <option value="Nuggets">Denver Nuggets</option>
+                <option value="Lakers">Los Angeles Lakers</option>
             </select>
         </fieldset>
             
