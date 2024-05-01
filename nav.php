@@ -9,23 +9,17 @@
     if ($pathParts['filename'] == "about") {
         print 'activePage';
     }
-    ?>" href="about.php">About</a>
+    ?>" href="about.php">NBA Blog</a>
 
     <a class="<?php
     if ($pathParts['filename'] == "detail") {
         print 'activePage';
     }
-    ?>" href="detail.php">Recipes</a>
+    ?>" href="detail.php">MVP Race</a>
 
     <a class="<?php
     if ($pathParts['filename'] == "form") {
         print 'activePage';
     }
-    ?>" href="form.php">Form</a>
-
-    <a class="<?php
-    if ($pathParts['filename'] == "array") {
-        print 'activePage';
-    }
-    ?>" href="array.php">Daily Intake</a>
+    ?>" href="form.php">NBA Form</a>
  </nav>
