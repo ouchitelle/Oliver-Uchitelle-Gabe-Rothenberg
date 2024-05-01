@@ -7,12 +7,12 @@
                     <caption>MVP Ladder
                     </caption>
                     <tr class="odd">
-                        <th>Region</th>
-                        <th>Country</th>
-                        <th>Information</th>
+                        <th>Player</th>
+                        <th>PRA (Points + Rebounds + Assists)</th>
+                        <th>MVP Odds</th>
                     </tr>
                     <?php
-                    $sql = 'SELECT fldRegion, fldCountry, fldInformation FROM tblRegionInfo';
+                    $sql = 'SELECT fldPlayer, fldPRA, fldOdds FROM tblRegionInfo';
                     $statement = $pdo->prepare($sql);
                     $statement->execute();
 
@@ -20,9 +20,9 @@
 
                     foreach($records as $record){
                         print '<tr>';
-                        print '<td>' . $record['fldRegion'] . '</td>';
-                        print '<td>' . $record['fldCountry'] . '</td>';
-                        print '<td>' . $record['fldInformation'] . '</td>';
+                        print '<td>' . $record['fldPlayer'] . '</td>';
+                        print '<td>' . $record['fldPRA'] . '</td>';
+                        print '<td>' . $record['fldOdds'] . '</td>';
                         print '<tr>' . PHP_EOL;
                     }
                     ?>
@@ -31,8 +31,7 @@
 </section>
 <h2>Jokic for MVP</h2>
             <p>
-            Instructions: In a large bowl, mix the dry ingredients (the first five).
-Then add in the wet ingredients and chilies (if using, for a U.S. southwestern style) until thoroughly combined. Heat a waffle iron and spray with oil. Cook the waffles for 3 to 4 minutes. Serve immediately with toppings of your choice.
+            CONTENT.
             </p>
                 
 
