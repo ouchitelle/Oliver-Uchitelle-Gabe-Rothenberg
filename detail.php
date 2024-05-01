@@ -4,7 +4,8 @@
 <main>
     <h1>MVP Race</h1> 
     <table>
-                    <caption>Information About Blue Zone Regions</caption>
+                    <caption>MVP Ladder
+                    </caption>
                     <tr class="odd">
                         <th>Region</th>
                         <th>Country</th>
@@ -25,9 +26,6 @@
                         print '<tr>' . PHP_EOL;
                     }
                     ?>
-                    <tr>
-                        <td colspan="3">Source: <cite><a href="https://www.healthline.com/nutrition/blue-zones#TOC_TITLE_HDR_3"><em>healthline</em></a>
-                </tr>
                 </table>
 
 </section>
