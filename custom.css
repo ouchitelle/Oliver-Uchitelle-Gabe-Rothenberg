@@ -1,0 +1,115 @@
+body{
+    width: 90%;
+    margin: auto;
+    max-width: 80ch;
+}
+
+:root {
+    --main-color: rgba(144, 142, 142, 0.905);
+    --second-color: rgb(127, 228, 241);
+    --third-color: rgb(127, 135, 241);
+    --font-main: Arial, Helvetica, sans-serif;
+    
+ }
+
+p {
+    font-family: var(--font-main);
+    padding: .3em;
+    margin: .8em;
+ }
+ main, nav {
+    padding: .3em;
+ }
+
+header {
+    color: var(--third-color);
+}
+
+a:hover {
+    color:purple;
+}
+h1{
+    text-transform:uppercase;
+}
+p {
+    text-indent: .8em;
+}
+cite{
+    font-size: xx-small;
+}
+img{
+    max-width: 100%;
+    border-radius: 1em;
+}
+figure{
+    border: .1em solid gold;
+}
+figure figcaption{
+    front-size:xx-small;
+    padding: .1em;
+}
+figure img, figcaption{
+    align: center;
+}
+nav a: link{
+    background-color: #fff;
+    color: #009;
+    text-decoration: none;
+}
+nav a:hover{
+        text-decoration: underline;
+        color: gold;
+}
+nav a{
+    display: inline-block;
+}
+nav {
+    border: think solid yellow;
+    background-color: white;
+    text-align: center;
+}
+tr:nth-child(odd) {
+    background-color: pink;
+}
+
+tr:nth-child(even) {
+    background-color: lavender;
+}
+td a {
+    font-size: xx-small;
+}
+table {
+    border:.3em solid gold;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr {
+    border: .1em solid gold;
+}
+th{
+    border: .5em solid gold;
+}
+#formpage p {
+    text-indent: 0em;
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.activePage {
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+

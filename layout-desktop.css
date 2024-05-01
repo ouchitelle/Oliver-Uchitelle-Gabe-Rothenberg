@@ -1,0 +1,42 @@
+body {
+    display: grid; 
+    grid-template-areas: "nav" "header" "main" "footer";
+    background-color: rgba(218, 214, 214, 0.905);
+}
+
+table{
+    max-width: 80%;
+    margin: auto;
+    align-self: center;
+    background-color: #555;
+}
+form{
+    border: thin solid black;
+    clear: both;
+}
+ form input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 3px;
+    width: 12em;
+}
+form input[type="submit"] {
+    text-align: center;
+    color: rgb(53, 9, 9);
+    width: 100%; 
+    display: block;
+    margin: 0 auto; 
+}
+
+form label {
+    display: block; 
+}
+form label[for^="1"] {
+    font-weight: bold;
+    color: #333;
+}
+nav{
+    background-color: rgba(218, 214, 214, 0.905);;
+}
+ 
+ 
