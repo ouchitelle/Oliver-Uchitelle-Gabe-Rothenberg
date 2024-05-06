@@ -22,6 +22,29 @@ include "top.php";
     ("Giannis Antetokounmpo", "48.4", "+25000")
 
     SELECT fldPlayer, fldPRA, fldOdds FROM tblRegionInfo;
+    </pre>
+
+
+
+
+<pre>
+
+    CREATE TABLE tblNBAform(
+        pmkRegionInfoId INT AUTO_INCREMENT PRIMARY KEY,
+        fldEmail VARCHAR(200) DEFAULT NULL,
+        fldName VARCHAR(200) DEFAULT NULL,
+        fldTeam VARCHAR(200) DEFAULT NULL,
+        fldMVP VARCHAR(200) DEFAULT NULL,
+        fldEast VARCHAR(200) DEFAULT NULL,
+        fldWest VARCHAR(200) DEFAULT NULL
+    )
+
+    INSERT INTO tblNBAform
+    (pmkRegionInfoId, fldEmail, fldName, fldTeam, fldMVP, fldEast, fldWest)
+    VALUES 
+    (1, 'email@gmail.com', 'John Doe', 'Team', 'Nikola Jokic', 'New York Knicks', 'Denver Nuggets');
+
+    SELECT pmkRegionInfoId, fldEmail, fldName, fldTeam, fldMVP, fldEast, fldWest FROM tblNBAforms;
 
 </pre>
 
