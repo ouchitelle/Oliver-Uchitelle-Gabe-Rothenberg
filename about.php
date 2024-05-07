@@ -6,7 +6,7 @@
     <section>
         <h2>Article 1</h2>
         <h3>Gabe</h2>
-            <p>Content
+            <p>I am a die hard Celtics fan. Over the last few years, this team has had its ups and downs. It seems like year after year I find myself more and more optimistic at the chance of the Celtics winning the finals, and year after year I am let down in some way or another. And although there's irony in this, I think this is finally the team's year to win it all. There is no other team in the entire league that I can see beating the superteam Celtics in 7 games. There is simply no matchup for our star-studded roster. After destroying the Miami Heat in a blowout game 5, the Celtics now look to take on the Cleveland Cavaliers. Although I am a fan of Donovan Mitchell, I don't see him taking down the Celtics on his own. Anticipating a clean sweep against Cleveland, Boston should be rolling into the Eastern Conference Finals with plenty of momentum. Once steamrolling the winner of the Knicks/Pacers series, they will (hopefully) have made it to the final step: win it all. If there's ever been a time for the Celtics to win, it's now - and I'm not too worried.
                     
             </p>
                 
