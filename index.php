@@ -22,7 +22,7 @@ include "top.php";
                     <li>Milkwalkee Bucks vs. Indiana Pacers</li>
                 </ul>
         <h2>Round 1 Spotlight</h2>
-        <h3>Round 1 Spotlight: NYK v. PHI</h3>
+        <h3>Knicks vs. 76ers</h3>
             <p>The New York Knicks vs. The Philadelphia 76ers is our spotlighted matchup for Round 1.  
                 With the 2023 MVP Joel Embiid returning from injury for the 76ers and key pieces like Mitchell Robinson and OG Anunoby returning to the rotation for New York, 
                 both teams are looking to take the series with their revamped rosters. New York and Philadelphia have two of the most dedicated fanbases in the league, so it should come as no surprise that this will be an intense series.
