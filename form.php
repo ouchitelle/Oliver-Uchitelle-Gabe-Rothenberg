@@ -123,12 +123,15 @@ try{
         <h2>NBA Form</h2>
     <form method="POST" action="#">
         <fieldset class="txtEmail">
+            <legend>What is your email address?</legend> 
             <input type="text" name="txtEmail" placeholder="ex. address@gmail.com">
         </fieldset>
         <fieldset class="txtName">
+            <legend>What is your name?</legend> 
             <input type="text" name="txtName" placeholder="ex. John Doe">
         </fieldset>
         <fieldset class="txtTeam">
+            <legend>What is your favorite NBA team?</legend> 
             <input type="text" name="txtTeam" placeholder="ex. New York Knicks">
         </fieldset>
         <fieldset class="radRadio">
